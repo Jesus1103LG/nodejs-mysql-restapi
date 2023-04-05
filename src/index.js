@@ -1,0 +1,7 @@
+import {PORT} from './config.js'
+import app from './app.js'
+
+// Server listening
+app.listen(PORT,()=>{
+    console.log(`Server on port ${PORT}`)
+})
